@@ -1,0 +1,59 @@
+schema_version: sourcey.entity-authoring/v1alpha1
+entity:
+  entity_id: ent_01m49kj7fg2ba13ayj40gqtmqg
+  slug: camb-ai
+  slug_aliases: []
+  name: CAMB.AI
+  domains:
+    - value: camb.ai
+      role: primary
+      valid_from: 2026-10-06T21:59:43.700Z
+  category: ai-ml
+profile:
+  summary: CAMB.AI builds speech AI models and APIs for dubbing, text-to-speech, translation, captions, and live voice applications across more than 150 languages.
+  description: CAMB.AI provides speech AI APIs and models for dubbing, text-to-speech, translation, captions, and live voice applications across 150+ languages.
+  links:
+    site: https://www.camb.ai
+sources:
+  - source_id: src_0a9053019977dcb02d18ea88c54a6a282d8ef1327d43270c4410287a2df70641
+    url: https://www.camb.ai/startup-grants
+programs:
+  - program_id: prg_01m49kj7fnh1m2t7f8fg6qregb
+    program_slug: camb-ai-startup-program
+    program_slug_aliases: []
+    title: CAMB.AI Startup Program
+    summary: The CAMB.AI Startup Program gives early-stage teams credits for the MARS Text-to-Speech APIs plus direct access to the CAMB.AI engineering team.
+    source_ids:
+      - src_0a9053019977dcb02d18ea88c54a6a282d8ef1327d43270c4410287a2df70641
+offers:
+  - offer_id: off_01m49kj7fn57q0d0q6j8fcmwj3
+    program_id: prg_01m49kj7fnh1m2t7f8fg6qregb
+    offer_slug: camb-ai-startup-program-credits
+    offer_slug_aliases: []
+    title: CAMB.AI Startup Program Credits
+    summary: Approved startups receive up to 33 million characters in MARS Text-to-Speech API credits and an onboarding call with the CAMB.AI engineering team.
+    lifecycle:
+      status: active
+      effective_from: 2026-10-06T21:59:43.700Z
+    economics:
+      consideration:
+        kind: none
+      benefits:
+        - benefit_id: ben_primary
+          description: Up to 33 million characters in MARS Text-to-Speech API credits.
+          kind: other
+    eligibility:
+      rule:
+        kind: manual
+        criterion_id: cri_requirement_01
+        statement: Early-stage startup from pre-seed through Series A, founded within the last five years, under $5 million in total funding, building a product that uses voice, speech, or localization AI, and that has not previously received CAMB.AI program credits.
+        reason: not-machine-evaluable
+    roles:
+      terms_authority_entity_id: ent_01m49kj7fg2ba13ayj40gqtmqg
+      access_operator_entity_id: ent_01m49kj7fg2ba13ayj40gqtmqg
+    access:
+      availability: public
+      method: form
+      url: https://www.camb.ai/startup-grants
+    source_ids:
+      - src_0a9053019977dcb02d18ea88c54a6a282d8ef1327d43270c4410287a2df70641
