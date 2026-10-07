@@ -19,14 +19,17 @@ sources:
     url: https://www.camb.ai/
   - source_id: src_0a9053019977dcb02d18ea88c54a6a282d8ef1327d43270c4410287a2df70641
     url: https://www.camb.ai/startup-grants
+  - source_id: src_b8fe4080b634d04199ec284a072e1100bbedc928f0b71cdb9787da1fd3c37005
+    url: https://www.camb.ai/terms-conditions
 programs:
   - program_id: prg_01m49kj7fnh1m2t7f8fg6qregb
     program_slug: camb-ai-startup-program
     program_slug_aliases: []
     title: CAMB.AI Startup Program
     summary: The CAMB.AI Startup Program gives early-stage teams credits for the MARS Text-to-Speech APIs plus direct access to the CAMB.AI engineering team.
-    source_ids:
+    source_ids: &a1
       - src_0a9053019977dcb02d18ea88c54a6a282d8ef1327d43270c4410287a2df70641
+      - src_b8fe4080b634d04199ec284a072e1100bbedc928f0b71cdb9787da1fd3c37005
 offers:
   - offer_id: off_01m49kj7fn57q0d0q6j8fcmwj3
     program_id: prg_01m49kj7fnh1m2t7f8fg6qregb
@@ -42,14 +45,40 @@ offers:
         kind: none
       benefits:
         - benefit_id: ben_primary
+          kind: free-service
+          service: MARS Text-to-Speech API
           description: Up to 33 million free TTS API credits.
+        - benefit_id: ben_onboarding
+          description: An onboarding call with the CAMB.AI engineering team.
           kind: other
     eligibility:
       rule:
-        kind: manual
-        criterion_id: cri_requirement_01
-        statement: We look for early-stage teams building real products with speech and localization AI. The listed criteria are early-stage startup (pre-seed through Series A); founded within the last 5 years; raised under $5M in total funding; building a product that uses voice, speech, or localization AI; and not having previously received CAMB.AI program credits.
-        reason: vendor-discretion
+        kind: all
+        rules:
+          - criterion_id: cri_01
+            kind: manual
+            reason: external-verification
+            statement: The startup is an early-stage startup from pre-seed through Series A.
+          - criterion_id: cri_02
+            kind: manual
+            reason: external-verification
+            statement: The startup was founded within the last 5 years.
+          - criterion_id: cri_03
+            kind: manual
+            reason: external-verification
+            statement: The startup raised under $5M in total funding.
+          - criterion_id: cri_04
+            kind: manual
+            reason: external-verification
+            statement: The startup is building a product that uses voice, speech, or localization AI.
+          - criterion_id: cri_05
+            kind: manual
+            reason: external-verification
+            statement: The startup has not previously received CAMB.AI program credits.
+          - criterion_id: cri_06
+            kind: manual
+            reason: vendor-discretion
+            statement: CAMB.AI looks for early-stage teams building real products with speech and localization AI and reviews every submission.
     roles:
       terms_authority_entity_id: ent_01m49kj7fg2ba13ayj40gqtmqg
       access_operator_entity_id: ent_01m49kj7fg2ba13ayj40gqtmqg
@@ -58,5 +87,5 @@ offers:
       method: form
       instructions: Fill out the short application below with your company details and what you are building; our team reviews the submission and gets back to you; approved teams receive their credits and an onboarding call with our engineering team.
       url: https://www.camb.ai/startup-grants
-    source_ids:
-      - src_0a9053019977dcb02d18ea88c54a6a282d8ef1327d43270c4410287a2df70641
+    terms_url: https://www.camb.ai/terms-conditions
+    source_ids: *a1
