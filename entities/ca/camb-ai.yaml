@@ -11,10 +11,12 @@ entity:
   category: ai-ml
 profile:
   summary: CAMB.AI builds speech AI models and APIs for dubbing, text-to-speech, translation, captions, and live voice applications across more than 150 languages.
-  description: CAMB.AI provides speech AI APIs and models for dubbing, text-to-speech, translation, captions, and live voice applications across 150+ languages.
+  description: CAMB.AI provides localization AI products for agentic dubbing, text-to-speech, live dubbing, AI voices, image translation, and captions and subtitles.
   links:
     site: https://www.camb.ai
 sources:
+  - source_id: src_c1df692a7d764546563bb7b6fed71583bf373160566fbfa5d1d68ba609202ca9
+    url: https://www.camb.ai/
   - source_id: src_0a9053019977dcb02d18ea88c54a6a282d8ef1327d43270c4410287a2df70641
     url: https://www.camb.ai/startup-grants
 programs:
@@ -31,7 +33,7 @@ offers:
     offer_slug: camb-ai-startup-program-credits
     offer_slug_aliases: []
     title: CAMB.AI Startup Program Credits
-    summary: Approved startups receive up to 33 million characters in MARS Text-to-Speech API credits and an onboarding call with the CAMB.AI engineering team.
+    summary: Approved startups receive up to 33 million free TTS API credits and an onboarding call with the CAMB.AI engineering team.
     lifecycle:
       status: active
       effective_from: 2026-10-06T21:59:43.700Z
@@ -40,20 +42,21 @@ offers:
         kind: none
       benefits:
         - benefit_id: ben_primary
-          description: Up to 33 million characters in MARS Text-to-Speech API credits.
+          description: Up to 33 million free TTS API credits.
           kind: other
     eligibility:
       rule:
         kind: manual
         criterion_id: cri_requirement_01
-        statement: Early-stage startup from pre-seed through Series A, founded within the last five years, under $5 million in total funding, building a product that uses voice, speech, or localization AI, and that has not previously received CAMB.AI program credits.
-        reason: not-machine-evaluable
+        statement: We look for early-stage teams building real products with speech and localization AI. The listed criteria are early-stage startup (pre-seed through Series A); founded within the last 5 years; raised under $5M in total funding; building a product that uses voice, speech, or localization AI; and not having previously received CAMB.AI program credits.
+        reason: vendor-discretion
     roles:
       terms_authority_entity_id: ent_01m49kj7fg2ba13ayj40gqtmqg
       access_operator_entity_id: ent_01m49kj7fg2ba13ayj40gqtmqg
     access:
       availability: public
       method: form
+      instructions: Fill out the short application below with your company details and what you are building; our team reviews the submission and gets back to you; approved teams receive their credits and an onboarding call with our engineering team.
       url: https://www.camb.ai/startup-grants
     source_ids:
       - src_0a9053019977dcb02d18ea88c54a6a282d8ef1327d43270c4410287a2df70641
