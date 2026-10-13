@@ -11,7 +11,7 @@ entity:
   category: ai-ml
 profile:
   summary: CAMB.AI builds speech AI models and APIs for dubbing, text-to-speech, translation, captions, and live voice applications across more than 150 languages.
-  description: CAMB.AI provides agentic dubbing, text to speech, live dubbing, AI voices, image translation, and captions and subtitles.
+  description: CAMB.AI is the localization infrastructure for the internet, offering live dubbing, on-demand dubbing, text to speech, audiobooks, live speech translation, and image translation.
   links:
     site: https://www.camb.ai
 sources:
