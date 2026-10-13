@@ -11,7 +11,7 @@ entity:
   category: ai-ml
 profile:
   summary: CAMB.AI builds speech AI models and APIs for dubbing, text-to-speech, translation, captions, and live voice applications across more than 150 languages.
-  description: CAMB.AI provides localization AI products for agentic dubbing, text-to-speech, live dubbing, AI voices, image translation, and captions and subtitles.
+  description: CAMB.AI provides agentic dubbing, text to speech, live dubbing, AI voices, image translation, and captions and subtitles.
   links:
     site: https://www.camb.ai
 sources:
@@ -84,6 +84,6 @@ offers:
     access:
       availability: public
       method: form
-      instructions: Fill out the short application below with your company details and what you are building; our team reviews the submission and gets back to you; approved teams receive their credits and an onboarding call with our engineering team.
+      instructions: "Fill out the short application below with your company details and what you're building."
       url: https://www.camb.ai/startup-grants
     source_ids: *a1
