@@ -84,6 +84,6 @@ offers:
     access:
       availability: public
       method: form
-      instructions: "On the Startup Program page, fill out the short application below with your company details and what you're building."
+      instructions: "Fill out the short application below with your company details and what you're building."
       url: https://www.camb.ai/startup-grants
     source_ids: *a1
