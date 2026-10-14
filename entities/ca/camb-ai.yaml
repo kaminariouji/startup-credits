@@ -81,6 +81,8 @@ offers:
     roles:
       terms_authority_entity_id: ent_01m49kj7fg2ba13ayj40gqtmqg
       access_operator_entity_id: ent_01m49kj7fg2ba13ayj40gqtmqg
+    # Access is the public application form in the "How to apply" section of the
+    # Startup Program page; the instructions line quotes that section verbatim.
     access:
       availability: public
       method: form
